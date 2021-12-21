@@ -1,0 +1,35 @@
+.icon-wrapper {
+  position: relative;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.fa-shopping-cart {
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 22px;
+}
+.badge {
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  color: teal;
+}
+
+@media screen and (max-width: 600px) {
+  .icon-wrapper {
+    float: right;
+    display: block;
+  }
+
+  .responsive .icon-wrapper {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,9 @@
+.fa-trash {
+  cursor: pointer;
+  size: 30px;
+}
+
+.increment {
+  background-color: #d1a60b;
+  color: white;
+}
